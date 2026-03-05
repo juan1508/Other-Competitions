@@ -17,7 +17,7 @@ st.set_page_config(page_title="MMJ Emirates Cup", page_icon="🏆", layout="wide
 
 # ── Logo base64 ──
 def get_logo_b64():
-    path = os.path.join(os.path.dirname(__file__), "copa.png")
+    path = os.path.join(os.path.dirname(__file__), "COPA.png")
     if os.path.exists(path):
         with open(path, "rb") as f:
             return base64.b64encode(f.read()).decode()
