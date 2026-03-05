@@ -12,8 +12,12 @@ from state import (
 )
 
 # ──────────────── CONFIG ────────────────────────────────────────────
-st.set_page_config(page_title="MMJ Emirates Cup", page_icon="🏆", layout="wide",
-                   initial_sidebar_state="expanded")
+st.set_page_config(
+    page_title="MMJ Emirates Cup",
+    page_icon="COPA.png",   # ← cambia esto
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 # ── Logo base64 ──
 def get_logo_b64():
