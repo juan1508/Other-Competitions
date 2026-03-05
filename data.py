@@ -3,7 +3,7 @@ TEAM_ORDER = [
     "LAFC","SEA","MIN","VAN","COL","NHS","CLB","SDFC",
     "ATX","CHI","NE","ORL","LA","SKC","CLT","MIA",
     "NYC","RSL","TOR","MTL","DAL","POR","HOU","STL",
-    "ATL","PHI","DCU","RBNY","CIN","SJ"
+    "ATL","PHI","DCU","RBNY","SJ","CIN"
 ]
 
 TEAMS = {
